@@ -1,0 +1,12 @@
+@import '../variables/colors';
+.--header{
+    font-size: 20px;
+    color: $icons;
+}
+.--searchInputIcon{
+    font-size: 13px;
+    color: $icons;
+}
+.--archive{
+    color: $archiveIcon;
+}

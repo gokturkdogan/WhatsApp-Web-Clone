@@ -1,0 +1,74 @@
+@import '../variables/colors';
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__header{
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: $headers;
+    }
+    &__usersPhoto{
+        img{
+            width: 40px;
+            border-radius: 55px;
+        }
+    }
+    &__buttons{
+        padding: 10px 0px;
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+    }
+    &__search{
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: $sideBarBg;
+    }
+    &__searchArea{
+        padding: 5px 20px;
+        background-color: $headers;
+        border-radius: 8px;
+    }
+    &__searchAreaIcon{
+        padding-top: 4px;
+        i{
+            color: $icons
+        }
+    }
+    &__archive{
+        border-top: 1px solid $headers;
+        padding: 10px 40px;
+        background-color: $sideBarBg;
+        display: flex;
+    }
+    &__body{
+
+    }
+    &__item{
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__senderInfo{
+        display: flex;
+        height: fit-content;
+        padding: 0;
+    }
+    &__senderPhoto{
+        img{
+            width: 50px;
+            border-radius: 55px;
+        }
+    }
+    &__senderContent{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &__senderTime{
+    }
+}

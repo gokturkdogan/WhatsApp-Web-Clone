@@ -1,0 +1,28 @@
+@import 'layout/sideBar';
+@import 'variables/colors';
+@import 'components/inputs';
+@import 'components/icons';
+@import 'components/spans';
+
+body {
+    font-family: 'Inter', sans-serif;
+
+    background-color: $mainBackgorund;
+    .container {
+        margin: 10px 80px;
+
+        i {
+            //feature of all icons
+        }
+
+        input {
+            border-radius: 55px;
+            border: none;
+            resize: none;
+            outline: none;
+        }
+        span{
+            color: $title
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sideBar__header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #202C33;
+}
+.sideBar__usersPhoto img {
+  width: 40px;
+  border-radius: 55px;
+}
+.sideBar__buttons {
+  padding: 10px 0px;
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+.sideBar__search {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #111B21;
+}
+.sideBar__searchArea {
+  padding: 5px 20px;
+  background-color: #202C33;
+  border-radius: 8px;
+}
+.sideBar__searchAreaIcon {
+  padding-top: 4px;
+}
+.sideBar__searchAreaIcon i {
+  color: #AEBAC1;
+}
+.sideBar__archive {
+  border-top: 1px solid #202C33;
+  padding: 10px 40px;
+  background-color: #111B21;
+  display: flex;
+}
+.sideBar__item {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sideBar__senderInfo {
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0;
+}
+.sideBar__senderPhoto img {
+  width: 50px;
+  border-radius: 55px;
+}
+.sideBar__senderContent {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.--search {
+  width: 380px;
+  background-color: #202C33;
+  margin-left: 20px;
+}
+
+.--header {
+  font-size: 20px;
+  color: #AEBAC1;
+}
+
+.--searchInputIcon {
+  font-size: 13px;
+  color: #AEBAC1;
+}
+
+.--archive {
+  color: #00A884;
+}
+
+.--archiveSpan {
+  margin-left: 25px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0A1014;
+}
+body .container {
+  margin: 10px 80px;
+}
+body .container input {
+  border-radius: 55px;
+  border: none;
+  resize: none;
+  outline: none;
+}
+body .container span {
+  color: #E2E6E9;
+}/*# sourceMappingURL=main.css.map */
