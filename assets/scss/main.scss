@@ -1,4 +1,5 @@
 @import 'layout/sideBar';
+@import 'layout/messageView';
 @import 'variables/colors';
 @import 'components/inputs';
 @import 'components/icons';
@@ -7,17 +8,17 @@
 
 body {
     font-family: 'Inter', sans-serif;
-
     background-color: $mainBackgorund;
-    .container {
-        margin: 20px 140px;
+    padding-top: 20px;
+    
+        //margin: 0, auto;
 
         i {
             //feature of all icons
         }
 
         input {
-            border-radius: 55px;
+            border-radius: 8px;
             border: none;
             resize: none;
             outline: none;
@@ -25,5 +26,5 @@ body {
         span{
             //color: $title
         }
-    }
+    
 }

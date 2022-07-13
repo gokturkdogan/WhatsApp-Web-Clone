@@ -1,12 +1,17 @@
 @import '../variables/colors';
 
 .--search{
-    width: 390px;
+    width: 350px;
     background-color: $headers;
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 ::placeholder{
     color: $placeHolder;
     font-size: 14px;
+}
+
+.--typeMessage{
+    background-color: $typeMessage;
+    width: 930px;
+    padding: 7px 25px;
 }

@@ -2,8 +2,9 @@
 .sideBar{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     border-right: 1px solid $sideBarRightBorder;
+    margin-right: 0;
     
     &__header{
         padding-left: 20px;
@@ -39,6 +40,7 @@
         border-radius: 8px;
     }
     &__searchAreaIcon{
+        margin-left: 15px;
         padding-top: 4px;
         i{
             color: $icons
@@ -52,7 +54,7 @@
         border-bottom: 1px solid $headers;
     }
     &__body{
-        height: 770px;
+        height: 778px;
         Overflow-y:scroll;
     }
     &__item{

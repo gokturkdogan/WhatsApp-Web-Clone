@@ -1,104 +1,214 @@
 {
     "messages": [
         {
-            "userName": "Mark",
-            "profilePhoto": "https://portal.bilardo.gov.tr/assets/pages/media/profile/profile_user.jpg",
-            "messages": [
+            "active": [
                 {
-                    "send": [
+                    "userName": "Mark",
+                    "profilePhoto": "https://portal.bilardo.gov.tr/assets/pages/media/profile/profile_user.jpg",
+                    "messages": [
                         {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:32"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:45"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:07"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:09"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:12"
+                            "send": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ],
+                            "get": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ]
                         }
-                    ],
-                    "get": [
+                    ]
+                },
+                {
+                    "userName": "Diana",
+                    "profilePhoto": "https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo-1/images/profile/user-uploads/user-04.jpg",
+                    "messages": [
                         {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:32"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:45"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:07"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:09"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:12"
+                            "send": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ],
+                            "get": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ]
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "userName": "Diana",
-            "profilePhoto": "https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo-1/images/profile/user-uploads/user-04.jpg",
-            "messages": [
+            ],
+            "archived": [
                 {
-                    "send": [
+                    "userName": "Mark",
+                    "profilePhoto": "https://portal.bilardo.gov.tr/assets/pages/media/profile/profile_user.jpg",
+                    "messages": [
                         {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:32"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:45"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:07"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:09"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:12"
+                            "send": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ],
+                            "get": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ]
                         }
-                    ],
-                    "get": [
+                    ]
+                },
+                {
+                    "userName": "Diana",
+                    "profilePhoto": "https://pixinvent.com/demo/vuexy-bootstrap-laravel-admin-template/demo-1/images/profile/user-uploads/user-04.jpg",
+                    "messages": [
                         {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:32"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "12:45"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:07"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:09"
-                        },
-                        {
-                            "content": "Hi there this is a sample random message",
-                            "sendTime": "13:12"
+                            "send": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ],
+                            "get": [
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:32"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "12:45"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:07"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:09"
+                                },
+                                {
+                                    "content": "Hi there this is a sample random message",
+                                    "sendTime": "13:12"
+                                }
+                            ]
                         }
                     ]
                 }

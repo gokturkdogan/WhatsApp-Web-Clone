@@ -17,9 +17,9 @@
 
 <body>
 
-    <div class="container">
+    
         <div class="row">
-            <div class="col-5">
+            <div style="display: flex; justify-content: center;" class="col">
                 <div class="sideBar">
                     <div class="sideBar__header">
                         <div class="sideBar__usersPhoto">
@@ -398,22 +398,33 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
                 <div class="messageView">
                     <div class="messageView__header">
-
+                        <div class="messageView__senderImage">
+                            <img src="assets/images/senderOne.jpg" alt="">
+                            <span class="--MessageSenderName">Mark</span>
+                        </div>
+                        <div class="messageView__headerButtons">
+                            <i class="fa-solid fa-magnifying-glass --header"></i>
+                            <i class="fa-solid fa-ellipsis-vertical --header"></i>
+                        </div>
                     </div>
                     <div class="messageView__body">
 
                     </div>
                     <div class="messageView__footer">
-
+                        <i class="fa-regular fa-face-laugh-beam --messageFooterIcons"></i>
+                        <i class="fa-solid fa-paperclip --messageFooterIcons"></i>
+                        <input class="--typeMessage" type="text" placeholder="Bir mesaj yazın">
+                        <i class="fa-solid fa-microphone --messageFooterIcons"></i>
                     </div>
                 </div>
             </div>
+            
+                
+            
         </div>
-    </div>
+    
 
 
 

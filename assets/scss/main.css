@@ -1,8 +1,9 @@
 .sideBar {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   border-right: 1px solid #2f3b42;
+  margin-right: 0;
 }
 .sideBar__header {
   padding-left: 20px;
@@ -36,6 +37,7 @@
   border-radius: 8px;
 }
 .sideBar__searchAreaIcon {
+  margin-left: 15px;
   padding-top: 4px;
 }
 .sideBar__searchAreaIcon i {
@@ -49,7 +51,7 @@
   border-bottom: 1px solid #202C33;
 }
 .sideBar__body {
-  height: 770px;
+  height: 778px;
   Overflow-y: scroll;
 }
 .sideBar__item {
@@ -80,8 +82,40 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.messageView__header {
+  width: 1100px;
+  margin-left: 0;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #202C33;
+}
+.messageView__senderImage img {
+  width: 40px;
+  border-radius: 55px;
+}
+.messageView__headerButtons {
+  padding: 10px 0px;
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+}
+.messageView__body {
+  height: 770px;
+  Overflow-y: scroll;
+}
+.messageView__footer {
+  padding: 10px 20px;
+  background-color: #202C33;
+  display: flex;
+  justify-content: space-between;
+}
+
 .--search {
-  width: 390px;
+  width: 350px;
   background-color: #202C33;
   margin-left: 20px;
 }
@@ -101,6 +135,12 @@
   font-size: 14px;
 }
 
+.--typeMessage {
+  background-color: #2A3942;
+  width: 930px;
+  padding: 7px 25px;
+}
+
 .--header {
   font-size: 20px;
   color: #AEBAC1;
@@ -113,6 +153,12 @@
 
 .--archive {
   color: #00A884;
+}
+
+.--messageFooterIcons {
+  color: #AEBAC1;
+  font-size: 23px;
+  margin-top: 7px;
 }
 
 .--archiveSpan {
@@ -137,6 +183,14 @@
   font-weight: 200;
 }
 
+.--MessageSenderName {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #FFF;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -152,12 +206,10 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: #0A1014;
+  padding-top: 20px;
 }
-body .container {
-  margin: 20px 140px;
-}
-body .container input {
-  border-radius: 55px;
+body input {
+  border-radius: 8px;
   border: none;
   resize: none;
   outline: none;
