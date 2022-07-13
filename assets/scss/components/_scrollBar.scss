@@ -1,0 +1,13 @@
+@import '../variables/colors';
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: $sideBarBg;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $scrollBarBg;
+}

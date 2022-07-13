@@ -3,13 +3,14 @@
 @import 'components/inputs';
 @import 'components/icons';
 @import 'components/spans';
+@import 'components/scrollBar';
 
 body {
     font-family: 'Inter', sans-serif;
 
     background-color: $mainBackgorund;
     .container {
-        margin: 10px 80px;
+        margin: 20px 140px;
 
         i {
             //feature of all icons
@@ -22,7 +23,7 @@ body {
             outline: none;
         }
         span{
-            color: $title
+            //color: $title
         }
     }
 }

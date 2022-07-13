@@ -1,3 +1,22 @@
+@import '../variables/colors';
 .--archiveSpan{
     margin-left: 25px;
+    color: #FFF;
+}
+
+.--senderName{
+    color: #FFF;
+}
+
+.--senderMessage{
+    color: $placeHolder;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.--senderTime{
+    color: $placeHolder;
+    font-size: 12px;
+    font-weight: 200;
 }

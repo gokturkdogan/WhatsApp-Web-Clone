@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-right: 1px solid #2f3b42;
 }
 .sideBar__header {
-  padding: 10px 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
   background-color: #202C33;
@@ -20,7 +24,8 @@
   justify-content: space-between;
 }
 .sideBar__search {
-  padding: 10px 20px;
+  padding: 7px 10px;
+  padding-right: 15px;
   display: flex;
   justify-content: space-between;
   background-color: #111B21;
@@ -41,11 +46,22 @@
   padding: 10px 40px;
   background-color: #111B21;
   display: flex;
+  border-bottom: 1px solid #202C33;
+}
+.sideBar__body {
+  height: 770px;
+  Overflow-y: scroll;
 }
 .sideBar__item {
+  background-color: #111B21;
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #202C33;
+  cursor: pointer;
+}
+.sideBar__item:hover {
+  background-color: #202c33;
 }
 .sideBar__senderInfo {
   display: flex;
@@ -65,9 +81,24 @@
   justify-content: flex-start;
 }
 .--search {
-  width: 380px;
+  width: 390px;
   background-color: #202C33;
   margin-left: 20px;
+}
+
+::-moz-placeholder {
+  color: #8696A0;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: #8696A0;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: #8696A0;
+  font-size: 14px;
 }
 
 .--header {
@@ -86,6 +117,36 @@
 
 .--archiveSpan {
   margin-left: 25px;
+  color: #FFF;
+}
+
+.--senderName {
+  color: #FFF;
+}
+
+.--senderMessage {
+  color: #8696A0;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.--senderTime {
+  color: #8696A0;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111B21;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374045;
 }
 
 body {
@@ -93,14 +154,11 @@ body {
   background-color: #0A1014;
 }
 body .container {
-  margin: 10px 80px;
+  margin: 20px 140px;
 }
 body .container input {
   border-radius: 55px;
   border: none;
   resize: none;
   outline: none;
-}
-body .container span {
-  color: #E2E6E9;
 }/*# sourceMappingURL=main.css.map */

@@ -3,8 +3,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-right: 1px solid $sideBarRightBorder;
+    
     &__header{
-        padding: 10px 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 40px;
         display: flex;
         justify-content: space-between;
         background-color: $headers;
@@ -22,7 +27,8 @@
         justify-content: space-between;
     }
     &__search{
-        padding: 10px 20px;
+        padding: 7px 10px;
+        padding-right: 15px;
         display: flex;
         justify-content: space-between;
         background-color: $sideBarBg;
@@ -43,14 +49,22 @@
         padding: 10px 40px;
         background-color: $sideBarBg;
         display: flex;
+        border-bottom: 1px solid $headers;
     }
     &__body{
-
+        height: 770px;
+        Overflow-y:scroll;
     }
     &__item{
+        background-color: $sideBarBg;
         padding: 15px 20px;
         display: flex;
         justify-content: space-between;
+        border-bottom: 1px solid $headers;
+        cursor: pointer;
+        &:hover{
+            background-color: $sideBarItemHover;
+        }
     }
     &__senderInfo{
         display: flex;
